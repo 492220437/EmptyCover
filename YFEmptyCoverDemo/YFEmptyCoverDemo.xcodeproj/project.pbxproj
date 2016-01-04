@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BB191941C3A142D0070BCA5 /* EmptyCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB191901C3A142D0070BCA5 /* EmptyCoverView.m */; };
+		9BB191951C3A142D0070BCA5 /* EmptyCoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB191911C3A142D0070BCA5 /* EmptyCoverView.xib */; };
+		9BB191991C3A19460070BCA5 /* UIView+EmptyCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB191981C3A19460070BCA5 /* UIView+EmptyCover.m */; };
+		9BB1919B1C3A597E0070BCA5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BB1919A1C3A597E0070BCA5 /* README.md */; };
 		9BB46DDD1C33EF4300CD6559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46DDC1C33EF4300CD6559 /* main.m */; };
 		9BB46DE01C33EF4300CD6559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46DDF1C33EF4300CD6559 /* AppDelegate.m */; };
 		9BB46DE31C33EF4300CD6559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46DE21C33EF4300CD6559 /* ViewController.m */; };
 		9BB46DE61C33EF4300CD6559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB46DE41C33EF4300CD6559 /* Main.storyboard */; };
 		9BB46DE81C33EF4300CD6559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB46DE71C33EF4300CD6559 /* Assets.xcassets */; };
 		9BB46DEB1C33EF4300CD6559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB46DE91C33EF4300CD6559 /* LaunchScreen.storyboard */; };
-		9BB46DF81C33EF8900CD6559 /* EmptyCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46DF41C33EF8900CD6559 /* EmptyCoverView.m */; };
-		9BB46DF91C33EF8900CD6559 /* EmptyCoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB46DF51C33EF8900CD6559 /* EmptyCoverView.xib */; };
-		9BB46DFA1C33EF8900CD6559 /* UIScrollView+EmptyCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB46DF71C33EF8900CD6559 /* UIScrollView+EmptyCover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BB1918F1C3A142D0070BCA5 /* EmptyCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCoverView.h; sourceTree = "<group>"; };
+		9BB191901C3A142D0070BCA5 /* EmptyCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCoverView.m; sourceTree = "<group>"; };
+		9BB191911C3A142D0070BCA5 /* EmptyCoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyCoverView.xib; sourceTree = "<group>"; };
+		9BB191971C3A19460070BCA5 /* UIView+EmptyCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyCover.h"; sourceTree = "<group>"; };
+		9BB191981C3A19460070BCA5 /* UIView+EmptyCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyCover.m"; sourceTree = "<group>"; };
+		9BB1919A1C3A597E0070BCA5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9BB46DD81C33EF4300CD6559 /* YFEmptyCoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFEmptyCoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB46DDC1C33EF4300CD6559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BB46DDE1C33EF4300CD6559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,11 +36,6 @@
 		9BB46DE71C33EF4300CD6559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB46DEA1C33EF4300CD6559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB46DEC1C33EF4300CD6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BB46DF31C33EF8900CD6559 /* EmptyCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCoverView.h; sourceTree = "<group>"; };
-		9BB46DF41C33EF8900CD6559 /* EmptyCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCoverView.m; sourceTree = "<group>"; };
-		9BB46DF51C33EF8900CD6559 /* EmptyCoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyCoverView.xib; sourceTree = "<group>"; };
-		9BB46DF61C33EF8900CD6559 /* UIScrollView+EmptyCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyCover.h"; sourceTree = "<group>"; };
-		9BB46DF71C33EF8900CD6559 /* UIScrollView+EmptyCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyCover.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BB1918E1C3A142D0070BCA5 /* YFEmptyCover */ = {
+			isa = PBXGroup;
+			children = (
+				9BB1918F1C3A142D0070BCA5 /* EmptyCoverView.h */,
+				9BB191901C3A142D0070BCA5 /* EmptyCoverView.m */,
+				9BB191911C3A142D0070BCA5 /* EmptyCoverView.xib */,
+				9BB191971C3A19460070BCA5 /* UIView+EmptyCover.h */,
+				9BB191981C3A19460070BCA5 /* UIView+EmptyCover.m */,
+			);
+			name = YFEmptyCover;
+			path = ../YFEmptyCover;
+			sourceTree = "<group>";
+		};
 		9BB46DCF1C33EF4300CD6559 = {
 			isa = PBXGroup;
 			children = (
-				9BB46DF21C33EF8900CD6559 /* YFEmptyCover */,
+				9BB1919A1C3A597E0070BCA5 /* README.md */,
+				9BB1918E1C3A142D0070BCA5 /* YFEmptyCover */,
 				9BB46DDA1C33EF4300CD6559 /* YFEmptyCoverDemo */,
 				9BB46DD91C33EF4300CD6559 /* Products */,
 			);
@@ -86,18 +102,6 @@
 				9BB46DDC1C33EF4300CD6559 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9BB46DF21C33EF8900CD6559 /* YFEmptyCover */ = {
-			isa = PBXGroup;
-			children = (
-				9BB46DF31C33EF8900CD6559 /* EmptyCoverView.h */,
-				9BB46DF41C33EF8900CD6559 /* EmptyCoverView.m */,
-				9BB46DF51C33EF8900CD6559 /* EmptyCoverView.xib */,
-				9BB46DF61C33EF8900CD6559 /* UIScrollView+EmptyCover.h */,
-				9BB46DF71C33EF8900CD6559 /* UIScrollView+EmptyCover.m */,
-			);
-			path = YFEmptyCover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB46DF91C33EF8900CD6559 /* EmptyCoverView.xib in Resources */,
+				9BB191951C3A142D0070BCA5 /* EmptyCoverView.xib in Resources */,
 				9BB46DEB1C33EF4300CD6559 /* LaunchScreen.storyboard in Resources */,
 				9BB46DE81C33EF4300CD6559 /* Assets.xcassets in Resources */,
 				9BB46DE61C33EF4300CD6559 /* Main.storyboard in Resources */,
@@ -171,11 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB46DF81C33EF8900CD6559 /* EmptyCoverView.m in Sources */,
+				9BB1919B1C3A597E0070BCA5 /* README.md in Sources */,
+				9BB191941C3A142D0070BCA5 /* EmptyCoverView.m in Sources */,
 				9BB46DE31C33EF4300CD6559 /* ViewController.m in Sources */,
+				9BB191991C3A19460070BCA5 /* UIView+EmptyCover.m in Sources */,
 				9BB46DE01C33EF4300CD6559 /* AppDelegate.m in Sources */,
 				9BB46DDD1C33EF4300CD6559 /* main.m in Sources */,
-				9BB46DFA1C33EF8900CD6559 /* UIScrollView+EmptyCover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 				9BB46DF11C33EF4300CD6559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

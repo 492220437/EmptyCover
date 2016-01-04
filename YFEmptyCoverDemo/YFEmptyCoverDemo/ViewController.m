@@ -43,6 +43,8 @@
     
     self.num = 0;
     
+    self.tableView.userInfo = arc4random_uniform(2)? @{@"info":@"NoNetWork"}:@{@"info":@"NoData"};
+    
     [self.tableView reloadData];
 }
 - (IBAction)nomal:(id)sender {
@@ -54,18 +56,31 @@
 }
 #pragma mark UIScrollViewEmptyCoverSource
 
--(UIView *)emptyCoverViewFromInitializeEmptyCoverView:(EmptyCoverView *)emptyCoverView inScrollView:(UIScrollView *)scrollView
+-(UIView *)emptyCoverViewFromInitializeEmptyCoverView:(EmptyCoverView *)emptyCoverView onView:(UIView *)view
 {
     //emptyCoverView.titleLbl.hidden = YES;
    
     emptyCoverView.titleLbl.text = @"title";
-    emptyCoverView.detaileLbl.text=@"detaile";
-    [emptyCoverView.actionBtn setTitle:@"Action" forState:UIControlStateNormal];
+    
+    emptyCoverView.detaileLbl.text=@"detail";
+    
+    if (view.userInfo) {
+        
+        [emptyCoverView.actionBtn setTitle:view.userInfo[@"info"] forState:UIControlStateNormal];
+    }
+    else
+    {
+        [emptyCoverView.actionBtn setTitle:@"Action" forState:UIControlStateNormal];
+    }
+
     [emptyCoverView.actionBtn addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];
+    
     return emptyCoverView;
 }
 -(void)action:(UIButton*)btn
 {
     
 }
+
+
 @end

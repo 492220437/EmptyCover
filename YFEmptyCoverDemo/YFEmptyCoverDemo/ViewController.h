@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIScrollView+EmptyCover.h"
-@interface ViewController : UITableViewController<UIScrollViewEmptyCoverSource>
+#import "UIView+EmptyCover.h"
+@interface ViewController : UITableViewController<UIViewEmptyCoverSource>
 
 
 @end

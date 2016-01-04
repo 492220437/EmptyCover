@@ -10,7 +10,7 @@
 
 @interface EmptyCoverView : UIView
 
-@property (weak, nonatomic) IBOutlet UIView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLbl;
 @property (weak, nonatomic) IBOutlet UILabel *detaileLbl;
 @property (weak, nonatomic) IBOutlet UIButton *actionBtn;

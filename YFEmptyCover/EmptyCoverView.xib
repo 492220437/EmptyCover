@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -16,8 +16,9 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jsf-e6-SbZ">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmptyCover_icon" translatesAutoresizingMaskIntoConstraints="NO" id="PZq-no-hvL">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PZq-no-hvL">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <color key="backgroundColor" red="0.23137254900000001" green="0.63137254899999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="PZq-no-hvL" secondAttribute="height" multiplier="1:1" id="48D-zM-y9m"/>
                             </constraints>
@@ -78,7 +79,7 @@
                                 <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </state>
                             <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                     <integer key="value" value="4"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
@@ -177,13 +178,10 @@
             <connections>
                 <outlet property="actionBtn" destination="SdV-Xo-qcG" id="phJ-4k-RiD"/>
                 <outlet property="detaileLbl" destination="Opd-Pj-I6u" id="jVc-dA-zWL"/>
-                <outlet property="imageView" destination="Jsf-e6-SbZ" id="RXD-Xe-Dfh"/>
+                <outlet property="imageView" destination="PZq-no-hvL" id="dxX-FG-X2X"/>
                 <outlet property="titleLbl" destination="Jee-by-uDw" id="bfb-fM-a9B"/>
             </connections>
             <point key="canvasLocation" x="553" y="202"/>
         </view>
     </objects>
-    <resources>
-        <image name="EmptyCover_icon" width="69" height="78"/>
-    </resources>
 </document>
